@@ -152,7 +152,7 @@ const mediaData = [
     },
     {
         type: 'video',
-        src: 'images/video2.mp4',
+        src: 'images/video2.MP4',
         comment: 'А это тот самый день',
         muted: true
     },
