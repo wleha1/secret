@@ -147,33 +147,32 @@ function showRandomCompliment() {
 const mediaData = [
     {
         type: 'image',
-        src: '/images/photo4.jpg',
+        src: 'images/photo4.jpg',
         comment: 'Наша первая встреча — помнишь этот день?'
     },
     {
         type: 'video',
-        src: '/images/video2.MP4',
+        src: 'images/video1.mp4',
         comment: 'А это тот самый день',
         muted: true
     },
     {
         type: 'image',
-        src: '/images/photo2.jpg',
+        src: 'images/photo2.jpg',
         comment: 'А вот он снова!'
     },
     {
         type: 'video',
-        src: '/images/video6.MOV',
+        src: 'images/video6.mp4',
         comment: 'Смотри какие здесь мы милые',
         muted: true
     },
     {
         type: 'video',
-        src: '/images/video1.MOV',
+        src: 'images/video1.mp4',
         comment: '',
         muted: true
-    },
-
+    }
 ];
 
 let currentMediaIndex = 0;
